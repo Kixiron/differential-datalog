@@ -1,0 +1,19 @@
+[book]
+authors = ["The DDlog Developers"]
+language = "en"
+multilingual = false
+src = "src"
+title = "Differential Datalog"
+
+[output.html]
+mathjax-support = true
+
+# TODO: Once ddlog has dynamic compilation & wasm integration
+#       we can use mdBook's editor integration to allow readers
+#       to experiment with and execute examples
+#       https://rust-lang.github.io/mdBook/format/theme/editor.html#editor
+# TODO: Set up mdbook-linkcheck
+#       https://github.com/Michael-F-Bryan/mdbook-linkcheck
+# TODO: Set up the CI to test & publish docs to the gh-pages branch
+#       https://rust-lang.github.io/mdBook/continuous-integration.html#deploying-your-book-to-github-pages
+# TODO: Write an mdbook pre-processor to test ddlog examples
